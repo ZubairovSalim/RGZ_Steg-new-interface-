@@ -1,0 +1,14 @@
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\bin\Debug\РГЗ.exe.config
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\bin\Debug\РГЗ.exe
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\bin\Debug\РГЗ.pdb
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\bin\Debug\MetroFramework.Design.dll
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\bin\Debug\MetroFramework.dll
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\bin\Debug\MetroFramework.Fonts.dll
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.Form1.resources
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.exe
+c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.Hide_Form.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.Extract_Form.resources
