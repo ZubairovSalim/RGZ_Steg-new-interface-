@@ -29,6 +29,8 @@ namespace РГЗ
 
         public delegate void Helper2(string s);
 
+        bool ex_flag;
+
         public class ContainerFlaw : Exception//исключение
         {
             public ContainerFlaw(string message) : base(message)
@@ -39,20 +41,28 @@ namespace РГЗ
 
         public void DoDecrypt()
         {
-            ImageMaker image1 = new ImageMaker(adress);
-            mes_length = Convert.ToInt32(txt_Number.Text);
-            mas2_byte = image1.ArrayFilling();
-            mas2_sepparated = image1.ArraySeparation(mas2_byte);
-            mas2_dct = transforms.DisCosTrans(mas2_sepparated);
-            string mes = transforms.Extraction(mas2_dct, 4, 5, 5, 4, mes_length);
-            DecryptHelp(mes);
-            //txt_Decrypt.Text = mes;
-            //metroProgressBar1.Visible = false;
-            //metroLabel4.Visible = false;
-            //btn_Share.Enabled = true;
-            //btn_Decrypt.Enabled = true;
-        }
+            try
+            {
+                ImageMaker image1 = new ImageMaker(adress);
+                mes_length = Convert.ToInt32(txt_Number.Text);
+                mas2_byte = image1.ArrayFilling();
+                mas2_sepparated = image1.ArraySeparation(mas2_byte);
+                if (mas2_sepparated.Count < mes_length * 8)
+                {
+                    ex_flag = true;
+                    DecryptHelp("");
+                    throw new ContainerFlaw("The message length is too large for the container");
+                }
+                mas2_dct = transforms.DisCosTrans(mas2_sepparated);
+                string mes = transforms.Extraction(mas2_dct, 4, 5, 5, 4, mes_length);
+                DecryptHelp(mes);
+            }
+            catch(ContainerFlaw ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
 
+        }
         public void DecryptHelp(string str)
         {
             if (this.metroProgressBar1.InvokeRequired)
@@ -62,14 +72,24 @@ namespace РГЗ
             }
             else
             {
-                txt_Decrypt.Text = str;
-                metroProgressBar1.Visible = false;
-                metroLabel4.Visible = false;
-                btn_Share.Enabled = true;
-                btn_Decrypt.Enabled = true;
+                if(ex_flag == true)
+                {
+                    metroProgressBar1.Visible = false;
+                    metroLabel4.Visible = false;
+                    btn_Share.Enabled = true;
+                    btn_Decrypt.Enabled = true;
+                    ex_flag = false;
+                }
+                else
+                {
+                    txt_Decrypt.Text = str;
+                    metroProgressBar1.Visible = false;
+                    metroLabel4.Visible = false;
+                    btn_Share.Enabled = true;
+                    btn_Decrypt.Enabled = true;
+                }             
             }
         }
-
         public Extract_Form()
         {
             InitializeComponent();
@@ -156,7 +176,6 @@ namespace РГЗ
                 e.Handled = true;
                 non = false;
             }
-
         }
 
         private void btn_Back_Click(object sender, EventArgs e)
@@ -165,6 +184,10 @@ namespace РГЗ
             Application.OpenForms[0].Activate();
         }
 
+        private void txt_Number_TextChanged(object sender, EventArgs e)
+        {
+            txt_Decrypt.Text = String.Empty;
+        }
     }
 
 

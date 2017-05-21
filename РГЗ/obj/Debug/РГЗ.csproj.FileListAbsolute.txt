@@ -12,3 +12,17 @@ c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГ
 c:\users\user\documents\visual studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.pdb
 C:\Users\user\Documents\Visual Studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.Hide_Form.resources
 C:\Users\user\Documents\Visual Studio 2015\Projects\РГЗ\РГЗ\obj\Debug\РГЗ.Extract_Form.resources
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\bin\Debug\РГЗ.exe.config
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\bin\Debug\РГЗ.exe
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\bin\Debug\РГЗ.pdb
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\bin\Debug\MetroFramework.Design.dll
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\bin\Debug\MetroFramework.dll
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.csprojResolveAssemblyReference.cache
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.Extract_Form.resources
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.Form1.resources
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.Hide_Form.resources
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.Properties.Resources.resources
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.csproj.GenerateResource.Cache
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.exe
+C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.pdb
