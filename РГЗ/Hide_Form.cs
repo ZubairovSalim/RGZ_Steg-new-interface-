@@ -31,6 +31,10 @@ namespace РГЗ
 
         List<Thread> threads = new List<Thread>();
 
+        public delegate void Helper();
+
+        bool ex_flag = false;
+
 
         public class ContainerFlaw : Exception//исключение
         {
@@ -41,7 +45,7 @@ namespace РГЗ
         }
 
         public void DoEncrypt()
-        {
+         {
             try
             {
                 ImageMaker image = new ImageMaker(adress);
@@ -50,8 +54,8 @@ namespace РГЗ
 
                 if (mas_sepparated.Count < message.Length * 8)
                 {
-                    metroProgressBar1.Visible = false;
-                    metroLabel4.Visible = false;
+                    ex_flag = true;
+                    EncryptHelp();
                     throw new ContainerFlaw("The message length is too large for the container");
                 }
 
@@ -61,16 +65,43 @@ namespace РГЗ
                 mas_new_sepparated = transforms.Normalize(mas_idct);
                 mas_new_byte = transforms.Add(mas_new_sepparated, image.Width, image.Height);
                 resultImage = image.Introduction(mas_new_byte);
-                metroProgressBar1.Visible = false;
-                metroLabel4.Visible = false;
-                btn_Share.Enabled = true;
-                btn_Encrypt.Enabled = true;
-                btn_Save.Enabled = true;
+                EncryptHelp();
             }
             catch (ContainerFlaw ex)
             {
                 MessageBox.Show(ex.Message);
                 return;
+            }
+        }
+
+        public void EncryptHelp()
+        {
+            if (this.metroProgressBar1.InvokeRequired)
+            {
+                Helper d = new Helper(EncryptHelp);
+                this.Invoke(d);
+            }
+            else
+            {
+                if (ex_flag == true)
+                {
+                    metroProgressBar1.Visible = false;
+                    metroLabel4.Visible = false;
+                    btn_Share.Enabled = true;
+                    btn_Encrypt.Enabled = true;
+                    btn_Save.Enabled = false;
+                    ex_flag = false;
+
+                }
+                else
+                {
+                    metroProgressBar1.Visible = false;
+                    metroLabel4.Visible = false;
+                    btn_Share.Enabled = true;
+                    btn_Encrypt.Enabled = true;
+                    btn_Save.Enabled = true;
+                }
+
             }
         }
 

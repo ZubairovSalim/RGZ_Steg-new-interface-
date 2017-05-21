@@ -132,6 +132,7 @@ namespace РГЗ
                 ListDCT[i][u2, v2] = z2 * w2;
             }
 
+            binary_message = String.Empty;
             return ListDCT;
         }
 

@@ -27,6 +27,8 @@ namespace РГЗ
 
         List<Thread> threads = new List<Thread>();
 
+        public delegate void Helper2(string s);
+
         public class ContainerFlaw : Exception//исключение
         {
             public ContainerFlaw(string message) : base(message)
@@ -43,11 +45,29 @@ namespace РГЗ
             mas2_sepparated = image1.ArraySeparation(mas2_byte);
             mas2_dct = transforms.DisCosTrans(mas2_sepparated);
             string mes = transforms.Extraction(mas2_dct, 4, 5, 5, 4, mes_length);
-            txt_Decrypt.Text = mes;
-            metroProgressBar1.Visible = false;
-            metroLabel4.Visible = false;
-            btn_Share.Enabled = true;
-            btn_Decrypt.Enabled = true;
+            DecryptHelp(mes);
+            //txt_Decrypt.Text = mes;
+            //metroProgressBar1.Visible = false;
+            //metroLabel4.Visible = false;
+            //btn_Share.Enabled = true;
+            //btn_Decrypt.Enabled = true;
+        }
+
+        public void DecryptHelp(string str)
+        {
+            if (this.metroProgressBar1.InvokeRequired)
+            {
+                Helper2 d1 = new Helper2(DecryptHelp);
+                this.Invoke(d1, new object[] { str });
+            }
+            else
+            {
+                txt_Decrypt.Text = str;
+                metroProgressBar1.Visible = false;
+                metroLabel4.Visible = false;
+                btn_Share.Enabled = true;
+                btn_Decrypt.Enabled = true;
+            }
         }
 
         public Extract_Form()
