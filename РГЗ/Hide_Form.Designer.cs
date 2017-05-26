@@ -85,18 +85,18 @@ namespace РГЗ
             this.metroLabel2.AutoSize = true;
             this.metroLabel2.Location = new System.Drawing.Point(6, 147);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(132, 19);
+            this.metroLabel2.Size = new System.Drawing.Size(118, 19);
             this.metroLabel2.TabIndex = 3;
-            this.metroLabel2.Text = "Number of symbols: ";
+            this.metroLabel2.Text = "Число символов: ";
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.Location = new System.Drawing.Point(6, 28);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(156, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(214, 19);
             this.metroLabel1.TabIndex = 1;
-            this.metroLabel1.Text = "Enter a hidding message:";
+            this.metroLabel1.Text = "Введите сообщение для скрытия:";
             // 
             // toolStrip1
             // 
@@ -226,11 +226,11 @@ namespace РГЗ
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(378, 278);
+            this.metroLabel4.Location = new System.Drawing.Point(337, 278);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(82, 19);
+            this.metroLabel4.Size = new System.Drawing.Size(164, 19);
             this.metroLabel4.TabIndex = 3;
-            this.metroLabel4.Text = "Please wait...";
+            this.metroLabel4.Text = "Пожалуйста, подождите...";
             this.metroLabel4.Visible = false;
             // 
             // Hide_Form
@@ -245,7 +245,7 @@ namespace РГЗ
             this.Controls.Add(this.pictureBox1);
             this.Name = "Hide_Form";
             this.Style = MetroFramework.MetroColorStyle.Orange;
-            this.Text = "Hide Form";
+            this.Text = "Скрытие";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

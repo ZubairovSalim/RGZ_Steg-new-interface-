@@ -163,18 +163,18 @@
             this.metroLabel2.AutoSize = true;
             this.metroLabel2.Location = new System.Drawing.Point(6, 94);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(109, 19);
+            this.metroLabel2.Size = new System.Drawing.Size(169, 19);
             this.metroLabel2.TabIndex = 4;
-            this.metroLabel2.Text = "Hidden message:";
+            this.metroLabel2.Text = "Извлеченное сообщение:";
             // 
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.Location = new System.Drawing.Point(6, 28);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(159, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(165, 19);
             this.metroLabel1.TabIndex = 1;
-            this.metroLabel1.Text = "Enter number of symbols:";
+            this.metroLabel1.Text = "Введите число символов:";
             // 
             // txt_Number
             // 
@@ -232,11 +232,11 @@
             // metroLabel4
             // 
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.Location = new System.Drawing.Point(378, 278);
+            this.metroLabel4.Location = new System.Drawing.Point(337, 278);
             this.metroLabel4.Name = "metroLabel4";
-            this.metroLabel4.Size = new System.Drawing.Size(82, 19);
+            this.metroLabel4.Size = new System.Drawing.Size(164, 19);
             this.metroLabel4.TabIndex = 5;
-            this.metroLabel4.Text = "Please wait...";
+            this.metroLabel4.Text = "Пожалуйста, подождите...";
             this.metroLabel4.Visible = false;
             // 
             // Extract_Form
@@ -251,7 +251,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "Extract_Form";
             this.Style = MetroFramework.MetroColorStyle.Orange;
-            this.Text = "Extract Form";
+            this.Text = "Извлечение";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);

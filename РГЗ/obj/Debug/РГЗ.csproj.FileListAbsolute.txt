@@ -26,3 +26,17 @@ C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.
 C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.csproj.GenerateResource.Cache
 C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.exe
 C:\Users\Салим\Desktop\RGZ\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.pdb
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\bin\Debug\РГЗ.exe.config
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.exe
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.pdb
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\bin\Debug\РГЗ.exe
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\bin\Debug\РГЗ.pdb
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\bin\Debug\MetroFramework.Design.dll
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\bin\Debug\MetroFramework.dll
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.Extract_Form.resources
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.Form1.resources
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.Hide_Form.resources
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.Properties.Resources.resources
+C:\Users\user\Desktop\RGZ(new)\RGZ_Steg-new-interface-\РГЗ\obj\Debug\РГЗ.csproj.GenerateResource.Cache
