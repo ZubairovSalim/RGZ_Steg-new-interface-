@@ -87,6 +87,7 @@ namespace РГЗ
                     metroLabel4.Visible = false;
                     btn_Share.Enabled = true;
                     btn_Decrypt.Enabled = true;
+                    txt_Number.Enabled = true;
                 }             
             }
         }
@@ -130,6 +131,7 @@ namespace РГЗ
                 metroLabel4.Visible = true;
                 btn_Share.Enabled = false;
                 btn_Decrypt.Enabled = false;
+                txt_Number.Enabled = false;
                 ThreadStart deleg1 = new ThreadStart(DoDecrypt);
                 Thread thr1 = new Thread(deleg1);
                 threads.Add(thr1);
@@ -148,7 +150,9 @@ namespace РГЗ
                 t.Abort();
             }
 
+            txt_Number.Enabled = true;
             metroProgressBar1.Visible = false;
+            btn_Share.Enabled = true;
             btn_Decrypt.Enabled = false;
             pictureBox1.Image = null;
             txt_Number.Text = String.Empty;

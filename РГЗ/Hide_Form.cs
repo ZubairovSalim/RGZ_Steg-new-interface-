@@ -100,6 +100,7 @@ namespace РГЗ
                     btn_Share.Enabled = true;
                     btn_Encrypt.Enabled = true;
                     btn_Save.Enabled = true;
+                    txt_Encrypt.Enabled = true;
                 }
 
             }
@@ -140,6 +141,7 @@ namespace РГЗ
                 metroLabel4.Visible = true;
                 btn_Share.Enabled = false;
                 btn_Encrypt.Enabled = false;
+                txt_Encrypt.Enabled = false;
                 message = txt_Encrypt.Text;
                 ThreadStart deleg = new ThreadStart(DoEncrypt);
                 Thread thr = new Thread(deleg);
@@ -204,6 +206,7 @@ namespace РГЗ
                 t.Abort();
             }
 
+            txt_Encrypt.Enabled = true;
             metroProgressBar1.Visible = false;
             btn_Share.Enabled = true;
             btn_Encrypt.Enabled = false;

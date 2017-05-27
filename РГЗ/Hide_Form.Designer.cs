@@ -128,7 +128,7 @@ namespace РГЗ
             this.btn_Back.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_Back.Name = "btn_Back";
             this.btn_Back.Size = new System.Drawing.Size(40, 40);
-            this.btn_Back.Text = "Click there to go back";
+            this.btn_Back.Text = "Вернуться назад";
             this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
             // 
             // btn_Share
@@ -139,7 +139,7 @@ namespace РГЗ
             this.btn_Share.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_Share.Name = "btn_Share";
             this.btn_Share.Size = new System.Drawing.Size(40, 40);
-            this.btn_Share.Text = "Click there for choosing image in directory";
+            this.btn_Share.Text = "Выбрать изображение из директории";
             this.btn_Share.Click += new System.EventHandler(this.btn_Share_Click_1);
             // 
             // btn_Encrypt
@@ -150,7 +150,7 @@ namespace РГЗ
             this.btn_Encrypt.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_Encrypt.Name = "btn_Encrypt";
             this.btn_Encrypt.Size = new System.Drawing.Size(40, 40);
-            this.btn_Encrypt.Text = "Click there for hiding message in choosen image";
+            this.btn_Encrypt.Text = "Скрыть сообщение в изображении";
             this.btn_Encrypt.Click += new System.EventHandler(this.btn_Encrypt_Click);
             // 
             // btn_Save
@@ -161,7 +161,7 @@ namespace РГЗ
             this.btn_Save.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(40, 40);
-            this.btn_Save.Text = "CLick there for saving image in directory";
+            this.btn_Save.Text = "Сохранить изображение в директории";
             this.btn_Save.Click += new System.EventHandler(this.btn_Save_Click);
             // 
             // btn_Reset
@@ -172,7 +172,7 @@ namespace РГЗ
             this.btn_Reset.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_Reset.Name = "btn_Reset";
             this.btn_Reset.Size = new System.Drawing.Size(40, 40);
-            this.btn_Reset.Text = "Click there for reset settings";
+            this.btn_Reset.Text = "Сбросить настройки";
             this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
             // 
             // txt_Encrypt

@@ -89,7 +89,7 @@
             this.btn_Back.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_Back.Name = "btn_Back";
             this.btn_Back.Size = new System.Drawing.Size(40, 40);
-            this.btn_Back.Text = "Click there to go back";
+            this.btn_Back.Text = "Вернуться назад";
             this.btn_Back.Click += new System.EventHandler(this.btn_Back_Click);
             // 
             // btn_Share
@@ -100,7 +100,7 @@
             this.btn_Share.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_Share.Name = "btn_Share";
             this.btn_Share.Size = new System.Drawing.Size(40, 40);
-            this.btn_Share.Text = "Click there for choosing image in directory";
+            this.btn_Share.Text = "Выбрать изображение из директории";
             this.btn_Share.Click += new System.EventHandler(this.btn_Share_Click_1);
             // 
             // btn_Decrypt
@@ -111,7 +111,7 @@
             this.btn_Decrypt.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_Decrypt.Name = "btn_Decrypt";
             this.btn_Decrypt.Size = new System.Drawing.Size(40, 40);
-            this.btn_Decrypt.Text = "Click there for extracting message from choosen image";
+            this.btn_Decrypt.Text = "Извлечь сообщение из изображения";
             this.btn_Decrypt.Click += new System.EventHandler(this.btn_Decrypt_Click);
             // 
             // btn_Reset
@@ -122,7 +122,7 @@
             this.btn_Reset.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btn_Reset.Name = "btn_Reset";
             this.btn_Reset.Size = new System.Drawing.Size(40, 40);
-            this.btn_Reset.Text = "Click there for reset settings";
+            this.btn_Reset.Text = "Сбросить настройки";
             this.btn_Reset.Click += new System.EventHandler(this.btn_Reset_Click);
             // 
             // txt_Decrypt
